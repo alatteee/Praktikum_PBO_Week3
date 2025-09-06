@@ -8,6 +8,7 @@ import id.ac.polban.model.Anggota;
 import id.ac.polban.model.Barang;
 
 public class Koperasi {
+    public static final String NAMA = "Koperasi Sejahtera";
     private final Map<String, Anggota> anggotaMap = new HashMap<>();
     private final Map<String, Barang> barangMap  = new HashMap<>();
 
