@@ -16,6 +16,8 @@ public class AppKoperasi {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Koperasi store = seedData();
+        System.out.println("Selamat datang di " + Koperasi.NAMA);
+
 
         while (true) {
             System.out.println("\n=== MENU KOPERASI ===");
